@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], // Funcionalidade entende que entende com a DOM(HTML) tipagem que antes a gente não teria.
+    "allowJs": true, // Arquivos tanto JavaScript tanto TpyeScript
+    "jsx": "react-jsx", // Que está utilizando JSX. HTML dentro do JavaScript.
+    "noEmit": true, // Exutar o build da nossa aplicação e ele não retorna o codigo da nossa aplicação
+    "strict": true, // Para ele entrar no modo JavScript modo de lidar com Erros dentro do JS
+    "resolveJsonModule": true, // Importar arquivos JSON
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"] // Aonde o codigo da nossa aplicação vai estar
+}
